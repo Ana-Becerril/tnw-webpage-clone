@@ -10,5 +10,9 @@ body {
 
 .logo{
     width: 105px;
-    background-image: linear-gradient(to right, red , yellow);
+    background-image: linear-gradient(to top left, rgb(255, 60, 0) , rgb(209, 52, 157));
+}
+
+.diviser{
+    background-color: rgb(255, 225, 57);
 }
