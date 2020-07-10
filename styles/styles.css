@@ -10,5 +10,5 @@ body {
 
 .logo{
     width: 105px;
-    background-color:red;
+    background-image: linear-gradient(to right, red , yellow);
 }
