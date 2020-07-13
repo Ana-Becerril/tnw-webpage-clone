@@ -19,5 +19,20 @@ body {
 }
 
 .childreen{
-    top:100px;
+    padding-top:140px;
+}
+
+.main-one {
+    
+    background-image: url("images/microsoft.jpg");
+  }
+  
+.main-one:after{
+    content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    background-image: linear-gradient(to bottom, transparent 0%, black 100%);
 }
