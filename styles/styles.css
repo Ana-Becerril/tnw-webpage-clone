@@ -23,22 +23,21 @@ body {
     padding-top:140px;
 }
 
-.image-one {
-    height: 184px;
+.main-one {
+    background-image: url(https://web.archive.org/web/20200514204351im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/Microsoft-Build-2016-UWP-Dramatic-Blue-Windows-10-796x448-796x448.jpg);
+    height: 165px;
   }
 
-  .image-two {
+  .main-two {
     background-image: url(https://web.archive.org/web/20200514212003im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg);
-    height: 184px;
+    height: 165px;
   }
 
-.image-three{
+.main-three{
   background-image: url(https://web.archive.org/web/20200514200241/https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F05%2Fsmarttodo.jpg&signature=40bad8a87024ddd538af3571096305d8);
-  height: 184px;
+  height: 165px;
 
 }
-
-
   
 .main-one:after{
     content: '';
