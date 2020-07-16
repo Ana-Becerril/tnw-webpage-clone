@@ -23,13 +23,22 @@ body {
     padding-top:140px;
 }
 
-.main-one {
-    background-image: url("images/microsoft.jpg");
+.image-one {
+    height: 184px;
   }
 
-  .main-two {
+  .image-two {
     background-image: url(https://web.archive.org/web/20200514212003im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg);
+    height: 184px;
   }
+
+.image-three{
+  background-image: url(https://web.archive.org/web/20200514200241/https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F05%2Fsmarttodo.jpg&signature=40bad8a87024ddd538af3571096305d8);
+  height: 184px;
+
+}
+
+
   
 .main-one:after{
     content: '';
@@ -48,11 +57,15 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-    background-image: linear-gradient(to bottom, transparent 0%, black 100%);content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-      background-image: linear-gradient(to bottom, transparent 0%, black 100%);
+    background-image: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+.main-three:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    background-image: linear-gradient(to bottom, transparent 0%, black 100%); 
 }
