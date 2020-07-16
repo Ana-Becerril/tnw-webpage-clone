@@ -16,6 +16,7 @@ body {
 .diviser{
     background-color: rgb(255, 225, 57);
     top: 48px;
+    height: 60px;
 }
 
 .childreen{
@@ -23,8 +24,11 @@ body {
 }
 
 .main-one {
-    
     background-image: url("images/microsoft.jpg");
+  }
+
+  .main-two {
+    background-image: url(https://web.archive.org/web/20200514212003im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg);
   }
   
 .main-one:after{
@@ -35,4 +39,20 @@ body {
   right: 0;
   bottom: 0;
     background-image: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+.main-two:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    background-image: linear-gradient(to bottom, transparent 0%, black 100%);content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+      background-image: linear-gradient(to bottom, transparent 0%, black 100%);
 }
