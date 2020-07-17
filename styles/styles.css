@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-tnw{
+  color: #f42;
+}
+
 html,
 body {
   width: 100%;
