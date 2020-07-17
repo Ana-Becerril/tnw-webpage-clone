@@ -76,3 +76,8 @@ font-family: 'Poppins', sans-serif;
   bottom: 0;
     background-image: linear-gradient(to bottom, transparent 0%, black 100%); 
 }
+
+.img-ln{
+  width: 75px;
+  height: 75px;
+}
