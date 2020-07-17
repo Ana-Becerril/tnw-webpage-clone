@@ -23,6 +23,10 @@ body {
     padding-top:140px;
 }
 
+.title{
+font-family: 'Poppins', sans-serif;
+}
+
 .main-one {
     background-image: url(https://web.archive.org/web/20200514204351im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/Microsoft-Build-2016-UWP-Dramatic-Blue-Windows-10-796x448-796x448.jpg);
     height: 165px;
