@@ -6,6 +6,14 @@
   color: #f42;
 }
 
+.box-twnt{
+  background-color: rgb(255, 68, 34);
+}
+
+.box-twnb{
+  background-color: rgba(255, 68, 34, 0.08);
+}
+
 html,
 body {
   width: 100%;
@@ -80,4 +88,10 @@ font-family: 'Poppins', sans-serif;
 .img-ln{
   width: 75px;
   height: 75px;
+}
+
+
+.img-lf{
+  width: 63px;
+  height: 63px;
 }
