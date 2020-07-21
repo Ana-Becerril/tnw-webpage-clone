@@ -54,6 +54,13 @@ font-family: 'Poppins', sans-serif;
   height: 165px;
 
 }
+
+.main-apps{
+  background:url(https://web.archive.org/web/20200514200241if_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Codota-514x270.jpg) no-repeat;
+  background-size:150% 100%;
+  background-position: center;
+   height: 215px;
+}
   
 .main-one:after{
     content: '';
@@ -76,6 +83,16 @@ font-family: 'Poppins', sans-serif;
 }
 
 .main-three:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    background-image: linear-gradient(to bottom, transparent 0%, black 100%); 
+}
+
+.main-apps:after{
   content: '';
   position: absolute;
   top: 0;
