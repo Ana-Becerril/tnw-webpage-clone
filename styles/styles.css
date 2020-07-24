@@ -100,7 +100,7 @@ font-family: 'Poppins', sans-serif;
   left: 0;
   bottom: 0;
   right: 0;
-  background:url(https://web.archive.org/save/_embed/https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F04%2FUntitled-design-11.png&signature=c4cbafafc4a7f63c44f4f4c46ea178ca) no-repeat;
+  background-image:url(images/creative.png) no-repeat;
   background-position: 50%;
   background-size: cover;
 }
