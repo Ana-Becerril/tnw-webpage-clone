@@ -227,3 +227,12 @@ ul li::before {
 .diviser-two{
   height: 1px;
 }
+
+.footer-top{
+  height: 173px;
+  background-color: #131313;
+}
+
+.footer-botom{
+  height: 122px;
+}
