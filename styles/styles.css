@@ -116,6 +116,39 @@ font-family: 'Poppins', sans-serif;
   background-size: cover;
 }
 
+.main-ins-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image:url(images/insigjpg.jpg) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.main-launch-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image:url(https://web.archive.org/web/20200515113158im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover-796x419.jpg) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.main-distract-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image:url(https://web.archive.org/web/20200515113542im_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Hamilton-hed-796x419.jpg) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
 ul {
   list-style: none;
 }
