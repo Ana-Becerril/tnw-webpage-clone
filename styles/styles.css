@@ -229,10 +229,23 @@ ul li::before {
 }
 
 .footer-top{
-  height: 173px;
+  height: 180px;
   background-color: #131313;
 }
 
 .footer-botom{
   height: 122px;
+}
+
+.footer-social-links{
+  background-color: #333;
+}
+
+.icons{
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.footer-contact{
+  width: 18rem;
 }
