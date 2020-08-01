@@ -30,10 +30,10 @@
             <p class="text-xs ml-2"> We heard you like events and sweatpants so we made...</p>
         </div>
     </div>
-    <div class="childreen z-0 px-2">
-        <div class="w-full main-one relative bg-cover flex flex-col justify-end text-white">
+    <div class="childreen z-0 px-2 md:grid">
+        <div class="w-full main-one relative bg-cover flex flex-col justify-end text-white md:mt-2">
             <p class="z-10 ml-3  text-sm">APPS</p>
-            <p class="z-10 mx-3 mb-1 title leading-tight text-lg">Microsoft will detail how it plans to unify UWP and
+            <p class="z-10 mx-3 mb-1 title leading-tight text-lg md: text-4xl">Microsoft will detail how it plans to unify UWP and
                 Win32 apps at Build 2020</p>
             <div class="flex">
                 <p class="z-10 text-gray-500 text-xs ml-3 mb-3">by Napier Lopez</p>
@@ -47,7 +47,7 @@
             <p class="z-10 mx-3 my-3 title leading-tight text-lg">Shopify, Basecamp, and more will discuss the future of
                 ecommerce at Sprint on June 11</p>
         </div>
-        <div class="my-2 w-full main-three relative bg-cover flex flex-col justify-end text-white">
+        <div class="my-2 w-full main-three relative bg-cover flex flex-col justify-end text-white md:my-0">
             <p class="z-10 ml-3 text-sm"> TECH</p>
             <p class="z-10 mx-3 mb-1 title leading-tight text-lg">Microsoft’s new AI can generate smart to-do lists from
                 your emails</p>
@@ -55,8 +55,8 @@
                 <p class="z-10 text-gray-500 text-xs ml-3 mb-3">by Tristan Greene</p>
                 <i class="far fa-clock z-10 text-gray-500 mx-2"></i>
                 <p class="z-10 text-gray-500 text-xs mb-3">2 hours ago</p>
-                <i class="fas fa-share-alt z-10 text-gray-500 mx-2"></i>
-                <p class="z-10 text-gray-500 text-xs mb-3">9</p>
+                <i class="fas fa-share-alt z-10 text-gray-500 mx-2 md:invisible"></i>
+                <p class="z-10 text-gray-500 text-xs mb-3 md:invisible">9</p>
             </div>
         </div>
     </div>
@@ -631,7 +631,7 @@
             <di class="mt-10 mx-1 w-10 h-10 text-center footer-social-links rounded-full"> <i
                     class="fas fa-envelope icons"></i></di>
         </div>
-        <div class="footer-contact flex flex-wrap text-gray-400 justify-center items-center text-center mt-8 mx-4">
+        <div class="footer-contact flex flex-wrap text-gray-400 justify-center items-center text-center mt-8 mx-4 w-full">
             <div class="text-xs ml-3 w-12 h-8">EVENTS</div>
             <div class="text-xs ml-3 w-12 h-8">ABOUT</div>
             <div class="text-xs mx-3 w-12 h-8">ADVERTISE</div>
@@ -639,7 +639,17 @@
             <div class="text-xs mx-3 w-12 h-8">CONTACT</div>
         </div>
     </div>
-    <div class="footer-botom flex w-full bg-black"></div>
+    <div class="footer-botom flex w-full bg-black justify-center text-center items-center flex-wrap">
+        <div class="footer-botom-container w-full justify-center items-center text-center flex-wrap mx-5">
+        <div class="footer-logo">
+            <img class="justify-start"
+                src="https://web.archive.org/web/20200514211958im_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
+        </div>
+        <div class="">
+            <p class="text-white text-xs ml-5">© 2006–2020 The Next Web B.V. Made with ♥ in Amsterdam.</p>
+        </div>
+        </div>
+    </div>
 </body>
 
 </html>
