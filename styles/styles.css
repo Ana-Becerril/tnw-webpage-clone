@@ -226,10 +226,18 @@ ul li::before {
     background-image: linear-gradient(to bottom, transparent 0%, black 100%); 
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .img-ln {
     width: 75px;
     height: 75px;
+  }
+}
+
+
+@media screen and (max-width: 1440px) {
+  .img-ln {
+    max-width: 230px;
+    max-height: 114px;
   }
 }
 
