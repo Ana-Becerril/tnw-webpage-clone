@@ -234,12 +234,12 @@ ul li::before {
 }
 
 
-/*@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .img-ln {
     max-width: 232px;
     max-height: 114px;
   }
-}*/
+}
 
 
 .img-lf{
