@@ -236,8 +236,22 @@ ul li::before {
 
 @media screen and (max-width: 1440px) {
   .img-ln {
-    max-width: 232px;
-    max-height: 114px;
+  max-width: 232px;
+  max-height: 114px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img-ld {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+
+@media screen and (max-width: 1440px) {
+  .img-ld {
+  max-width: 232px;
   }
 }
 
