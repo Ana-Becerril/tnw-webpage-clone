@@ -13,14 +13,19 @@
 </head>
 
 <body>
-    <div class="header flex w-full h-12 justify-between fixed bg-white z-20">
-        <div class="logo mr-5">
-        <div class="logo items-center justify-center h-12">
-            <img class="h-12 w-16 ml-5" alt="The Next Web"
+    <div class="flex flex-col">
+    <div class="header flex w-full h-12 justify-between fixed bg-white z-20 md:h-20">
+        <div class="logo mr-5 md:h-20">
+        <div class="logo items-center justify-center h-12 md:h-20">
+            <img class="h-12 w-16 ml-5 md:h-20" alt="The Next Web"
                 src="https://web.archive.org/web/20200514211958im_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
         </div>
         </div>
-        <div class="md:w-full flex justify-start mr-7">
+        <div class="menus md:w-full h-24 flex flex-col">
+        <div class="menut md:w-full h-8 bg-black">
+asdfafa
+        </div>
+        <div class="menub md:w-full md:flex md:justify-start md:mr-7 md:visible">
         <div class="md:h-12 flex items-center menub">
             <div class="text-xs text-gray-500 mr-2 font-bold">LATEST</div>
             <div class="text-xs text-gray-500 mx-2 font-bold">HARD FORK</div>
@@ -29,15 +34,16 @@
             <div class="text-xs text-gray-500 mx-2 font-bold">GROWTH QUARTERS</div>
         </div>
         </div>
+        </div>
         <div class="w-2/4 h-12 flex justify-end items-center">
-            <div class="w-12 h-12 flex items-center justify-center border-l border-gray-300">
-                <i class="text-gray-500 text-lg h-9 fas fa-search"></i>
+            <div class="w-12 h-12 flex items-center justify-center border-l border-gray-300 visible">
+                <i class="visible text-gray-500 text-lg h-9 fas fa-search"></i>
             </div>
             <div class="w-12 h-12 flex items-center justify-center border-l border-gray-300 md:invisible md:w-0 md:h-0">
                 <i class="text-orange-500 text-xl h-9 fas fa-bars"></i>
             </div>
         </div>
-        <div class="flex flex-col justify-center w-full h-16 diviser fixed">
+        <div class="flex flex-col justify-center w-full h-16 diviser fixed md:mt-8">
             <p class="text-xs ml-2"> We heard you like events and sweatpants so we made...</p>
         </div>
     </div>
