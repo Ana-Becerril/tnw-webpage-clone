@@ -13,33 +13,44 @@
 </head>
 
 <body>
-    <div class="header-md flex flex-col">
-        <div class="flex">
+    <div class="flex flex-col">
+        <div class="header flex fixed z-0">
             <div class="logo h-20">
-                <div class="logo h-8"></div>
-                <div class="logo-image h-8">
-                <div class="logo justify-start">
-                    <img class="w-16 ml-5" alt="The Next Web"
+                <div class="logo relative mt-8">
+                    <img class="w-16 ml-5 absolute" alt="The Next Web"
                         src="https://web.archive.org/web/20200514211958im_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
                 </div>
             </div>
-            </div>
-        <div class="menus md:w-full h-24 flex flex-col">
-            <div class="menut md:w-full h-8 bg-black">
-            </div>
-            <div class="menub md:w-full md:flex md:justify-start md:mr-7 md:visible md:ml-3">
-                <div class="md:h-12 flex items-center menub">
-                    <div class="text-xs text-gray-500 mr-2 font-bold">LATEST</div>
-                    <div class="text-xs text-gray-500 mx-2 font-bold">HARD FORK</div>
-                    <div class="text-xs text-gray-500 mx-2 font-bold">PLUGGED</div>
-                    <div class="text-xs text-gray-500 mx-2 font-bold">README</div>
-                    <div class="text-xs text-gray-500 mx-2 font-bold">GROWTH QUARTERS</div>
+            <div class="menus md:w-full h-24 flex flex-col">
+                <div class="menut md:w-full h-8 bg-black flex">
+                    <div class="menu-list-right mt-1 ml-3 flex justify-start">
+                        <div class="text-xs text-white mr-2 font-bold">News</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">Events</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">Business</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">AMAs</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">Spaces</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">Terms and conditions</div>
+                    </div>
+                    <div class="menu-list-left flex justify-end mt-1">
+                        <div class="text-xs text-gray-500 mx-2 font-bold">About</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">Advertise</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">Jobs</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">Contact</div>
+                    </div>
+                </div>
+                <div class="menub md:w-full md:flex md:justify-start md:mr-7 md:visible md:ml-3">
+                    <div class="md:h-12 flex items-center menub">
+                        <div class="text-xs text-gray-500 mr-2 font-bold">LATEST</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">HARD FORK</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">PLUGGED</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">README</div>
+                        <div class="text-xs text-gray-500 mx-2 font-bold">GROWTH QUARTERS</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="flex flex-col justify-center w-full h-16 diviser fixed mt-8">
-            <p class="text-xs ml-2"> We heard you like events and sweatpants so we made...</p>
-        </div>
+            <div class="flex flex-col justify-center w-full h-16 diviser fixed md:mt-8">
+                <p class="text-xs ml-2"> We heard you like events and sweatpants so we made...</p>
+            </div>
         </div>
         <div class="header flex w-full h-12 justify-between fixed bg-white z-20 md:hidden">
             <div class="logo mr-5">
@@ -60,7 +71,7 @@
                 <p class="text-xs ml-2"> We heard you like events and sweatpants so we made...</p>
             </div>
         </div>
-        <div class="childreen z-0 px-2 md:grid">
+        <div class="childreen z-0 px-2 pt-32 mt- md:grid">
             <div class="w-full main-one relative bg-cover flex flex-col justify-end text-white md:mt-2">
                 <p class="z-10 ml-3  text-sm">APPS</p>
                 <p class="z-10 mx-3 mb-1 title leading-tight text-lg md:text-4xl">Microsoft will detail how it plans to
