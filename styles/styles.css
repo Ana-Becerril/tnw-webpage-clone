@@ -238,7 +238,7 @@ ul li::before {
     display: none;
     padding: 0 10px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .ln-child {
@@ -266,15 +266,14 @@ ul li::before {
     .ln-container {
         display: flex;
         flex-flow: row wrap;
-        padding: 0 18px;
+        padding: 0 1px 0 10px;
     }
 
     .ln-child {
         display: flex;
         flex-flow: column nowrap;
-        width: calc(33.333% - 10px);
-        max-height: calc(33.333% - 10px);
-        padding: 0 2px;
+        width: calc(33.333% - 3px);
+        padding: 0 10px;
     }
     
     .ln-img-container {
