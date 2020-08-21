@@ -352,6 +352,11 @@ ul li::before {
   z-index: 1;
 }
 
+.price-off{
+  writing-mode:vertical-rl;
+  transform: rotate(-45deg);
+}
+
 .ld-img-container > img {
   width: 100%;
   height: 100%;
