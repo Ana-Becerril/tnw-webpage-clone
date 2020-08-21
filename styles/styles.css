@@ -30,6 +30,9 @@ body {
     background-color: rgb(255, 225, 57);
     top: 48px;
     height: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .childreen{
