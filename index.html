@@ -15,7 +15,7 @@
 <body>
     <div class="flex flex-col">
         <div class="header flex w-full h-12 justify-between fixed bg-white z-20">
-            <div class="logo h-20"> 
+            <div class="logo h-20 lg:hidden"> 
                 <div class="logo relative mt-8">
                     <img class="w-16 ml-5 absolute" alt="The Next Web"
                         src="https://web.archive.org/web/20200514211958im_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
@@ -23,7 +23,7 @@
             </div>
             <div class="menus md:w-full h-24 flex flex-col bg-white">
                 <div class="menut md:w-full h-8 flex">
-                    <div class="menu-list-right mt-1 ml-3 flex justify-start w-3/4">
+                    <div class="menu-list-right mt-1 ml-3 flex justify-start w-3/4 lg:ml-5 lg:mt-2">
                         <div class="text-xs text-white mr-2 font-bold">News</div>
                         <div class="text-xs text-gray-500 mx-2 font-bold">Events</div>
                         <div class="text-xs text-gray-500 mx-2 font-bold">Business</div>
@@ -31,7 +31,7 @@
                         <div class="text-xs text-gray-500 mx-2 font-bold">Spaces</div>
                         <div class="text-xs text-gray-500 mx-2 font-bold">Terms and conditions</div>
                     </div>
-                    <div class="menu-list-left flex justify-end mt-1 w-1/4">
+                    <div class="menu-list-left flex justify-end mt-1 w-1/4 lg:mt-2">
                         <div class="text-xs text-gray-500 mx-2 font-bold">About</div>
                         <div class="text-xs text-gray-500 mx-2 font-bold">Advertise</div>
                         <div class="text-xs text-gray-500 mx-2 font-bold">Jobs</div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="w-full flex">
-                <div class="menub md:w-11/12 md:flex md:justify-start md:mr-7">
+                <div class="menub md:w-11/12 md:flex md:justify-start md:mr-7 lg:ml-2">
                     <div class="md:h-12 flex items-center menub">
                         <div class="text-xs text-gray-500 mr-2 font-bold ml-3">LATEST</div>
                         <div class="text-xs text-gray-500 mx-2 font-bold ml-3">HARD FORK</div>
@@ -56,8 +56,8 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center w-full h-16 diviser fixed md:mt-8">
-                <div class="w-4/5 flex justify-center md:ml-16">
-                <p class="text-xs ml-2"> We heard you like events and sweatpants so we made events you can join in your sweatpants</p>
+                <div class="w-4b/5 flex justify-center items-center mb-5 md:ml-16 lg:ml-3 lg:justify-start">
+                <p class="text-xs ml-2 mt-5"> We heard you like events and sweatpants so we made events you can join in your sweatpants ➔</p>
                 </div>
             </div>
         </div>
@@ -80,10 +80,10 @@
                 <p class="text-xs ml-2"> We heard you like events and sweatpants so we made...</p>
             </div>
         </div>
-        <div class="childreen z-0 px-2 md:grid md:mt-6">
+        <div class="childreen z-0 px-2 md:grid md:mt-8">
             <div class="w-full main-one relative bg-cover flex flex-col justify-end text-white md:mt-2">
                 <p class="z-10 ml-3  text-sm">APPS</p>
-                <p class="z-10 mx-3 mb-1 title leading-tight text-lg md:text-4xl">Microsoft will detail how it plans to
+                <p class="z-10 mx-3 mb-1 title leading-tight text-lg md:text-4xl lg:text-5xl">Microsoft will detail how it plans to
                     unify UWP and
                     Win32 apps at Build 2020</p>
                 <div class="flex">
@@ -94,14 +94,14 @@
                     <p class="z-10 text-gray-500 text-xs mb-3">6</p>
                 </div>
             </div>
-            <div class="my-2 w-full main-two relative bg-cover flex flex-col justify-end text-white">
-                <p class="z-10 mx-3 my-3 title leading-tight text-lg">Shopify, Basecamp, and more will discuss the
+            <div class="my-2 w-full main-two relative bg-cover flex flex-col justify-end text-white lg:justify-center">
+                <p class="z-10 mx-3 my-3 title leading-tight text-lg lg:text-2xl lg:ml-8 lg:mr-10">Shopify, Basecamp, and more will discuss the
                     future of
                     ecommerce at Sprint on June 11</p>
             </div>
             <div class="my-2 w-full main-three relative bg-cover flex flex-col justify-end text-white md:my-0">
-                <p class="z-10 ml-3 text-sm"> TECH</p>
-                <p class="z-10 mx-3 mb-1 title leading-tight text-lg">Microsoft’s new AI can generate smart to-do lists
+                <p class="z-10 ml-3 text-sm lg:ml-5"> TECH</p>
+                <p class="z-10 mx-3 mb-1 title leading-tight text-lg lg:text-2xl lg:ml-7">Microsoft’s new AI can generate smart to-do lists
                     from
                     your emails</p>
                 <div class="flex">
@@ -946,6 +946,11 @@
                         class="fab fa-instagram icons"></i></di>
                 <di class="mt-10 mx-1 w-10 h-10 text-center footer-social-links rounded-full"> <i
                         class="fab fa-pinterest-p icons"></i></di>
+                        <div class="hidden md:visible">
+                <div class="mt-10 mx-1 w-10 h-10 text-center footer-social-links rounded-full">
+                    <i class="fas fa-rss icons"></i>
+                </div>
+                        </div>
                 <di class="mt-10 mx-1 w-10 h-10 text-center footer-social-links rounded-full"> <i
                         class="fas fa-envelope icons"></i></di>
             </div>
