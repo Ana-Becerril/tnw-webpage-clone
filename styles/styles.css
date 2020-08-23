@@ -109,6 +109,10 @@ font-family: 'Poppins', sans-serif;
   height: 206px;
 
 }
+
+.news-container {
+  margin-top: 2rem;
+}
 }
 
 .main-apps{
