@@ -249,7 +249,7 @@ ul li::before {
   background: linear-gradient(to bottom, transparent 0%,
                                        black 100%) top, 
             linear-gradient(to top, transparent 0%,
-            rgba(255, 74, 18, 0.5), rgba(255, 18, 128, 0.7) 100%) bottom;
+            rgba(255, 62, 4, 0.5), rgba(255, 79, 161, 0.87) 100%) bottom;
 }
 }
 
