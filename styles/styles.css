@@ -234,6 +234,22 @@ ul li::before {
     background-image: linear-gradient(to bottom, transparent 0%, black 100%);
 }
 
+@media screen and (min-width: 1024px) {
+  .main-one:after{
+    content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%,
+                                       black 100%) top, 
+            linear-gradient(to top, transparent 0%,
+            rgba(255, 74, 18, 0.5), rgba(255, 18, 128, 0.7) 100%) bottom;
+}
+}
+
+
 .main-two:after{
   content: '';
   position: absolute;
