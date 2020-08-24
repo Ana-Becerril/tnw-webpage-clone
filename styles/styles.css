@@ -423,7 +423,6 @@ ul li::before {
 .img-ld-container{
   width: calc(25% - 24px);
   margin: 8px;
-  padding: 4px;
 }
 }
 
